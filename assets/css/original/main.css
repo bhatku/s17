@@ -1628,7 +1628,7 @@
 	}
 
 	body {
-		background: #525a3a;
+		background: #242943;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2100,7 +2100,7 @@ font-family: 'Noto Sans', sans-serif;
 			background: #ffffff;
 			border-color: #9bf1ff;
 			content: '\f00c';
-			color: #b3c100;
+			color: #242943;
 		}
 
 		input[type="checkbox"]:focus + label:before,
@@ -2181,7 +2181,7 @@ font-family: 'Noto Sans', sans-serif;
 		.icon.alt:before {
 			background-color: #ffffff;
 			border-radius: 100%;
-			color: #525a3a;
+			color: #242943;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2418,12 +2418,12 @@ font-family: 'Noto Sans', sans-serif;
 
 					ul.pagination li > .page.active {
 						background-color: #ffffff;
-						color: #b3c100;
+						color: #242943;
 					}
 
 						ul.pagination li > .page.active:hover {
 							background-color: #9bf1ff;
-							color: #b3c100 !important;
+							color: #242943 !important;
 						}
 
 						ul.pagination li > .page.active:active {
@@ -2709,7 +2709,7 @@ font-family: 'Noto Sans', sans-serif;
 		.button.special {
 			background-color: #ffffff;
 			box-shadow: none;
-			color: #b3c100;
+			color: #242943;
 		}
 
 			input[type="submit"].special:hover, input[type="submit"].special:active,
@@ -2722,7 +2722,7 @@ font-family: 'Noto Sans', sans-serif;
 			.button.special:hover,
 			.button.special:active {
 				background-color: #9bf1ff;
-				color: #b3c100 !important;
+				color: #242943 !important;
 			}
 
 			input[type="submit"].special:active,
@@ -2874,20 +2874,19 @@ font-family: 'Noto Sans', sans-serif;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #2e4600	;
+				background-color: #8d82c4;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #b3c100;
+				background-color: #ec8d81;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #fbcd4d;
-				ebd400;
+				background-color: #e7b788;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #fa8d62;
+				background-color: #8ea9e8;
 			}
 
 			.tiles article:nth-child(6n):before {
@@ -3154,10 +3153,9 @@ font-family: 'Noto Sans', sans-serif;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #525a3a;
+		background-color: #2a2f4a;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
-    font-family: 'Comfortaa', cursive;
 		font-weight: 600;
 		height: 3.25em;
 		left: 0;
@@ -3174,7 +3172,6 @@ font-family: 'Noto Sans', sans-serif;
 		#header .logo {
 			border: 0;
 			display: inline-block;
-			    font-family: 'Comfortaa', cursive;
 			font-size: 0.8em;
 			height: inherit;
 			line-height: inherit;
@@ -3187,8 +3184,7 @@ font-family: 'Noto Sans', sans-serif;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-
-				color: #525a3a;
+				color: #242943;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3456,12 +3452,12 @@ font-family: 'Noto Sans', sans-serif;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #b3c100;
+			background-color: #242943;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.55;
+			opacity: 0.85;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3635,7 +3631,7 @@ font-family: 'Noto Sans', sans-serif;
 /* Main */
 
 	#main {
-		background-color: #525a3a;
+		background-color: #2a2f4a;
 	}
 
 		#main > * {
