@@ -1628,7 +1628,7 @@
 	}
 
 	body {
-		background: #525a3a;
+		background: #b3c100;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1946,7 +1946,7 @@ font-family: 'Noto Sans', sans-serif;
 		display: block;
 		font-size: 0.8em;
 		font-weight: 600;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
@@ -3154,7 +3154,7 @@ font-family: 'Noto Sans', sans-serif;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #525a3a;
+		background-color: #b3c100;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
     font-family: 'Comfortaa', cursive;
@@ -4002,3 +4002,42 @@ font-family: 'Noto Sans', sans-serif;
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+		/* Read more */
+
+				.read-more-state {
+				  display: none;
+				}
+
+				.read-more-target {
+				  opacity: 0;
+				  max-height: 0;
+				  font-size: 0;
+				  transition: .25s ease;
+				}
+
+				.read-more-state:checked ~ .read-more-wrap .read-more-target {
+				  opacity: 1;
+				  font-size: inherit;
+				  max-height: 999em;
+				}
+
+				.read-more-state ~ .read-more-trigger:before {
+				  content: 'अधिक देखें';
+				}
+
+				.read-more-state:checked ~ .read-more-trigger:before {
+				  content: 'कम देखें';
+				}
+
+				.read-more-trigger {
+				  cursor: pointer;
+				  display: inline-block;
+				  padding: 0 .5em;
+				  color: #fff;
+				  font-size: .9em;
+				  line-height: 2;
+				  border: 1px solid #ddd;
+				  border-radius: .25em;
+				}
