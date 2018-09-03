@@ -993,6 +993,14 @@ font-family: 'Noto Sans', sans-serif;
 			max-width: 30%;
 		}
 
+		@media screen and (max-width: 640px) {
+		
+		.image.left, .image.right {
+			max-width: 100%;
+		}
+			
+		}
+		
 			.image.left img, .image.right img {
 				width: 100%;
 			}
