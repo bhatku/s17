@@ -2804,7 +2804,7 @@ font-family: 'Noto Sans', sans-serif;
 			}
 
 			.tiles article h3 {
-				font-size: 2em;
+				font-size: 1.5em;
 			}
 
 				.tiles article h3 a:hover {
@@ -4045,3 +4045,10 @@ font-family: 'Noto Sans', sans-serif;
 			max-width:600px;
 			margin:auto
 		}
+
+.bg-green{
+	background-color:#b3c100
+}
+.center{
+	margin: 1em auto
+}
