@@ -662,7 +662,7 @@ font-family: 'Noto Sans', sans-serif;
 
 			header.major > :first-child:after {
 				content: '';
-				background-color: #ffffff;
+				background-color: #ffffff;	
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
@@ -672,9 +672,9 @@ font-family: 'Noto Sans', sans-serif;
 		header.major > p {
 			font-size: .9em;
 			font-weight: 600;
-			letter-spacing: 0.25em;
+			letter-spacing: 0.15em;
 			margin-bottom: 0;
-			text-transform: uppercase;
+			text-transform: none;
 		}
 
 /* Form */
@@ -740,9 +740,9 @@ font-family: 'Noto Sans', sans-serif;
 		display: block;
 		font-size: 0.8em;
 		font-weight: 600;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.15em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 	input[type="text"],
@@ -1336,12 +1336,12 @@ font-family: 'Noto Sans', sans-serif;
 		font-size: 0.8em;
 		font-weight: 900;
 		height: 3.5em;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.15em;
 		line-height: 3.5em;
 		padding: 0 1.75em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: none;
 		white-space: nowrap;
 	}
 
@@ -1788,11 +1788,11 @@ font-family: 'Noto Sans', sans-serif;
 		font-weight: 600;
 		height: 3.25em;
 		left: 0;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.15em;
 		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
-		text-transform: uppercase;
+		text-transform: none;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
@@ -2065,7 +2065,8 @@ font-family: 'Noto Sans', sans-serif;
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			font-size: 3em;
+			font-weight: 500
 		}
 
 		#banner > .inner {
@@ -2118,8 +2119,8 @@ font-family: 'Noto Sans', sans-serif;
 				#banner > .inner .content p {
 					font-size: 0.7em;
 					font-weight: 600;
-					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					letter-spacing: 0.15em;
+					text-transform: none;
 				}
 
 		#banner.major {
@@ -2461,10 +2462,10 @@ font-family: 'Noto Sans', sans-serif;
 						display: block;
 						font-size: 0.8em;
 						font-weight: 600;
-						letter-spacing: 0.25em;
-						line-height: 4em;
+						letter-spacing: 0.15em;
+						line-height: 3.25em;
 						text-decoration: none;
-						text-transform: uppercase;
+						text-transform: none;
 					}
 
 					#menu ul.links > li > .button {
