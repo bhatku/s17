@@ -1628,7 +1628,7 @@
 	}
 
 	body {
-		background: #017677;
+		background: #a0b084;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1993,8 +1993,8 @@ font-family: 'Noto Sans', sans-serif;
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #017677;
-			box-shadow: 0 0 0 2px #017677;
+			border-color: #a0b084;
+			box-shadow: 0 0 0 2px #a0b084;
 		}
 
 	.select-wrapper {
@@ -2098,14 +2098,14 @@ font-family: 'Noto Sans', sans-serif;
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
-			border-color: #017677;
+			border-color: #a0b084;
 			content: '\f00c';
 			color: #b3c100;
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #017677;
+			box-shadow: 0 0 0 2px #a0b084;
 		}
 
 	input[type="radio"] + label:before {
@@ -2422,7 +2422,7 @@ font-family: 'Noto Sans', sans-serif;
 					}
 
 						ul.pagination li > .page.active:hover {
-							background-color: #017677;
+							background-color: #a0b084;
 							color: #b3c100 !important;
 						}
 
@@ -2576,7 +2576,7 @@ font-family: 'Noto Sans', sans-serif;
 		.button:hover,
 		.button:active {
 			box-shadow: inset 0 0 0 3px #F3DD0D;
-			color: #017677;
+			color: #a0b084;
 		}
 
 		input[type="submit"]:active,
@@ -2721,7 +2721,7 @@ font-family: 'Noto Sans', sans-serif;
 			button.special:active,
 			.button.special:hover,
 			.button.special:active {
-				background-color: #017677;
+				background-color: #a0b084;
 				color: #b3c100 !important;
 			}
 
@@ -2874,11 +2874,11 @@ font-family: 'Noto Sans', sans-serif;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #017677	;
+				background-color: #a0b084	;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #017677;
+				background-color: #a0b084;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
@@ -2886,11 +2886,11 @@ font-family: 'Noto Sans', sans-serif;
 				}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #017677;
+				background-color: #a0b084;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #017677;
+				background-color: #a0b084;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -2977,7 +2977,7 @@ font-family: 'Noto Sans', sans-serif;
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #017677;
+			background-color: #a0b084;
 		}
 
 			.spotlights > section > .image {
@@ -3039,7 +3039,7 @@ font-family: 'Noto Sans', sans-serif;
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #017677;
+				background-color: #a0b084;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3455,7 +3455,7 @@ font-family: 'Noto Sans', sans-serif;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #b3c100;
+			background-color: #a0b084;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3540,7 +3540,7 @@ font-family: 'Noto Sans', sans-serif;
 		}
 
 		#banner.style2:after {
-			background-color: #017677;
+			background-color: #a0b084;
 		}
 
 		#banner.style3:after {
@@ -3634,7 +3634,7 @@ font-family: 'Noto Sans', sans-serif;
 /* Main */
 
 	#main {
-		background-color: #017677;
+		background-color: #a0b084;
 	}
 
 		#main > * {
@@ -3671,7 +3671,7 @@ font-family: 'Noto Sans', sans-serif;
 	#contact {
 		border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		overflow-x: hidden;
-		background-color: #b3c100
+		background-color: #a0b084
 
 	}
 
@@ -4047,7 +4047,7 @@ font-family: 'Noto Sans', sans-serif;
 		}
 
 .bg-green{
-	background-color:#b3c100
+	background-color:#a0b084
 }
 .center{
 	margin: 1em auto
