@@ -1050,9 +1050,12 @@ font-family: 'Noto Sans', sans-serif;
 		}
 
 		.image.fit {
-			display: block;
+			display: inline-block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			max-width: 40rem;
+
+			
 		}
 
 			.image.fit img {
@@ -2592,10 +2595,6 @@ font-family: 'Noto Sans', sans-serif;
 /* Read more */
 
 
-.yimg{
-	max-width:600px;
-	margin:auto
-}
 
 .schedule_td:hover{
 background-color: #e9e7da;
