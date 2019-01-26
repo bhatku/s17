@@ -475,7 +475,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: #e9e7da;
 	}
 
 /* Type */
@@ -2679,6 +2679,12 @@ padding:.25em
 	color:#217677
 }
 .mw{margin:0 2em; max-width:70rem;}
+.hindi{
+	    font-family: 'Noto Sans', sans-serif;
+		font-size:1.15em;
+}
+div.hindi, section.hindi, p.hindi, ul.hindi, li.hindi{
+font-size:1.15em;}
 @media screen and (max-width: 736px) {
 	
 	.bodytext{
