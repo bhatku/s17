@@ -550,7 +550,7 @@
 		color: #fff;
 		font-weight: 600;
 		line-height: 1.65;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 	}
 
 		h3 a {
@@ -2678,7 +2678,6 @@ padding:.25em
 .logoblue{
 	color:#217677
 }
-.mw{margin:0 2em; max-width:70rem;}
 .hindi{
 	    font-family: 'Noto Sans', sans-serif;
 		font-size:1.15em;
