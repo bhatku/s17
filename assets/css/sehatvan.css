@@ -18,11 +18,23 @@
 
 .btn-text:not(.collapsed) .closed {display:none}
 .btn-text.collapsed .opened {display:none}
-
+.card-header .btn-link{
+    color: #a0b084;
+    font-weight:600;
+    word-wrap: break-word;
+    
+}
+.accordion .card-header{padding:.25em 0;}
 table th {
     padding: 10px 5px 10px 5px;
 }
 
 table td {
     padding: 5px;
+}
+
+.card-body{
+    background-color:#a0b084
+    }
+    .accordion .btn {white-space: normal;}
 }
