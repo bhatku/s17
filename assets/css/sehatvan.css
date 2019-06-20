@@ -41,3 +41,24 @@ table td {
 .call{
     margin-right:.5em;
 }
+.jumbotron{
+    background-image: url("../../images/banner.jpg") ;
+    background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(205,164,87, 0.5);
+height: 70vh;
+background-position: top center;
+
+    }
+    }
+    
+}
+@media (min-width: 768px) {
+    .jumbotron{
+        height:50vh;
+        background-position: center;
+    }
+}
+.jumbotron .my-4{
+  	border-bottom: solid 1px rgba(255, 255, 255, 0.9);
+}
+}
