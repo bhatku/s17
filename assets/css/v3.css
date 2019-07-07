@@ -1,9 +1,8 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans");
-
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap')
 /*
 
-   font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
 
     font-family: 'Open Sans', sans-serif;
 
@@ -470,7 +469,7 @@ input,
 select,
 textarea {
     color: #ffffff;
-   font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
     font-size: 17pt;
     font-weight: 300;
     letter-spacing: 0.025em;
@@ -536,7 +535,7 @@ i {
 
 p {
     margin: 0 0 1em 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1,
@@ -556,22 +555,22 @@ h3 a {
 
 h1 {
     font-size: 2.5em;
-   font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
     font-size: 1.75em;
-   font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h3 {
     font-size: 1.35em;
-   font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h4 {
     font-size: 1.1em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 @media screen and (max-width: 736px) {
@@ -1795,7 +1794,7 @@ input[type="reset"]:disabled,
     background-color: #e9e7da;
     box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
     cursor: default;
-   font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     height: 3.25em;
     left: 0;
@@ -1812,7 +1811,7 @@ input[type="reset"]:disabled,
 #header .logo {
     border: 0;
     display: inline-block;
-   font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
     font-size: 0.8em;
     height: inherit;
     line-height: inherit;
