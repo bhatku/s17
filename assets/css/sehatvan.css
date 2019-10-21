@@ -95,8 +95,8 @@ background-position: top center;
 }
 
 .accordion a.active {
-  color: #f4dd0c;
-  border-bottom: 1px solid #f4dd0c;
+  color: #486b00;
+  border-bottom: 1px solid #486b00;
 }
 
 .accordion a::after {
@@ -106,14 +106,14 @@ background-position: top center;
   float: right;
   right: 1rem;
   font-size: 1rem;
-  color: #fff;
+  color: #000;
   padding: 0px;
   width: 30px;
   height: 30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid #000;
   text-align: center;
 }
 
