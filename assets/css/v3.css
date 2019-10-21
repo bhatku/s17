@@ -2214,7 +2214,7 @@ input[type="reset"]:disabled,
 #contact {
     border-bottom: solid 1px rgba(212, 212, 255, 0.1);
     overflow-x: hidden;
-    background-color: #cda347;
+    background-color: #486b00;
 }
 
 #contact>.inner {
@@ -2607,7 +2607,7 @@ body.is-menu-visible #menu .inner {
 }
 
 .darktxt {
-    color: #373f27
+    color: #373f27;
 }
 
 .lighttxt {
@@ -2627,7 +2627,11 @@ body.is-menu-visible #menu .inner {
 }
 
 .logoblue {
-    color: #fff
+    color: #fff;
+
+}
+.black{
+	color:#000;
 }
 
 .hindi {
