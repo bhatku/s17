@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
 /*
 
   font-family: 'Quicksand', sans-serif;
@@ -458,7 +459,7 @@ body {
 }
 
 body {
-    background: #e9e7da;
+    background: white;
 }
 
 
@@ -471,7 +472,7 @@ textarea {
     color: #ffffff;
   font-family: 'Quicksand', sans-serif;
     font-size: 17pt;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.025em;
     line-height: 1.65;
 }
@@ -857,7 +858,7 @@ input[type="radio"]+label {
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-weight: 300;
+    font-weight: 400;
     padding-left: 2.65em;
     padding-right: 0.75em;
     position: relative;
@@ -2179,7 +2180,7 @@ input[type="reset"]:disabled,
 /* Main */
 
 #main {
-    background-color: #e9e7da;
+    background-color: white;
 }
 
 #main>* {
@@ -2583,7 +2584,7 @@ body.is-menu-visible #menu .inner {
 }
 
 .bg-green {
-    background-color: #e9e7da
+    background-color: white
 }
 
 .center {
@@ -2607,7 +2608,7 @@ body.is-menu-visible #menu .inner {
 }
 
 .darktxt {
-    color: #373f27;
+    color: #232323;
 }
 
 .lighttxt {
@@ -2623,7 +2624,7 @@ body.is-menu-visible #menu .inner {
 }
 
 .white {
-    background-color: #e9e7da;
+    background-color:white;
 }
 
 .logoblue {

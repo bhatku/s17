@@ -37,7 +37,7 @@ table td {
     background-color:#a0b084
     }
     .accordion .btn {white-space: normal;}
-}
+
 .call{
     margin-right:.5em;
 }
@@ -49,9 +49,9 @@ height: 70vh;
 background-position: top center;
 
     }
-    }
     
-}
+    
+
 @media (min-width: 768px) {
     .jumbotron{
         height:50vh;
@@ -138,7 +138,7 @@ background-position: top center;
 
 .accordion .content p {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .accordion .content.active {
@@ -150,3 +150,6 @@ background-position: top center;
   transition: all 0.35s ease 0.15s;
 }
 
+.hindi{
+  font-family: 'Mukta', sans-serif;
+}
