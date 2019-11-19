@@ -1069,7 +1069,7 @@ a.icon.alt:active:before {
 
 ol {
     list-style: decimal;
-    margin: 0 0 2em 0;
+    margin: 0 0 1em 0;
     padding-left: 1.25em;
 }
 
@@ -2583,9 +2583,7 @@ body.is-menu-visible #menu .inner {
     margin-bottom: 0
 }
 
-.bg-green {
-    background-color: white
-}
+
 
 .center {
     margin: 1em auto 0 auto
@@ -2607,38 +2605,9 @@ body.is-menu-visible #menu .inner {
     padding-left: 2em;
 }
 
-.darktxt {
-    color: #232323;
-}
 
-.lighttxt {
-    color: #e9e7da;
-}
 
-.green {
-    background-color: #486b00;
-}
 
-.gold {
-    background-color: #cda437;
-}
-
-.white {
-    background-color:white;
-}
-
-.logoblue {
-    color: #fff;
-
-}
-.black{
-	color:#000;
-}
-
-.hindi {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.15em;
-}
 
 div.hindi,
 section.hindi,

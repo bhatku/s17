@@ -78,7 +78,7 @@ background-position: top center;
   flex-direction: column;
   width: 100%;
   padding: 1rem 3rem 1rem 1rem;
-  color: #7288a2;
+  color: #232323;
   font-size: 1.15rem;
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
@@ -149,7 +149,38 @@ background-position: top center;
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
 }
+.lighttxt, .lighttxt p, .lighttxt h1, .lighttxt h2 {
+  color: #e9e7da;
+}
 
+.darktxt, .darktxt p, .darktxt h1, .darktxt h2, .darktxt h3, .darktxt h4 {
+  color: #232323;
+}
+
+.green {
+  background-color: #486b00;
+}
+
+.gold {
+  background-color: #cda437;
+}
+
+.white {
+  background-color:white;
+}
+
+.logoblue {
+  color: #fff;
+
+}
+.black{
+color:#000;
+}
+
+.hindi {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15em;
+}
 .hindi{
   font-family: 'Mukta', sans-serif;
 }
