@@ -156,3 +156,15 @@ background-position: top center;
 .bg-grey{
   background-color: #e9e7da;
 }
+
+.hindi p, .hindi h1, .hindi h2{
+  font-family: 'Mukta', sans-serif;
+}
+
+.english, .english p, .english h1, .english h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.heavy, .heavy p, .heavy h1{
+  font-weight:600;
+}
