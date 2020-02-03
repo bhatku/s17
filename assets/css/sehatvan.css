@@ -208,3 +208,11 @@ color:#000;
   color: white;
   text-align: center;
 }
+/* how to offset anchor tag for fixed header */
+:target {
+  display: block;
+  position: relative;
+  top: -120px; 
+  visibility: hidden;
+}
+
