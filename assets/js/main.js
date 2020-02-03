@@ -349,7 +349,9 @@
 
 	});
 
-})(jQuery);
+})
+
+(jQuery);
 
 const items = document.querySelectorAll(".accordion a");
 
