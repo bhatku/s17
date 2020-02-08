@@ -216,3 +216,11 @@ color:#000;
   visibility: hidden;
 }
 
+.module{
+  background-color:#e9e7da;
+margin: 0 -2em;
+padding: 0 2em;
+}
+a.white{
+  color:#fff;
+}
