@@ -228,7 +228,7 @@ a.white{
 /* the fish */
 .tuna {
   /* use the timing function steps() to chunk the animation into 12 equal pieces */
-  background: url(images\sprite_catwalk_brown.png) 0 0 no-repeat; 
+  background: url(..\..\images\sprite_catwalk_brown.png) 0 0 no-repeat; 
   height: 200px;
   width: 400px;
   margin: 100px auto 0;
