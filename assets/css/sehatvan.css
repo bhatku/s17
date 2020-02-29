@@ -224,4 +224,27 @@ padding: 0 2em;
 a.white{
   color:#fff;
 }
-123
+
+/* the fish */
+.tuna {
+  /* use the timing function steps() to chunk the animation into 12 equal pieces */
+  background: url(images\sprite_catwalk_brown.png) 0 0 no-repeat; 
+  height: 200px;
+  width: 400px;
+  margin: 100px auto 0;
+  animation: walk-cycle steps(11) infinite 1.5s;
+}
+
+/* Don't forget: You'll need an @keyframes block to change the background image's position! */
+
+@keyframes walk-cycle {
+  0% {
+    background-position: 0 0;
+  } 
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+
+p {text-align: center;}
