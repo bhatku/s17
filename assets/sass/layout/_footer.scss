@@ -6,7 +6,9 @@
 
 /* Footer */
 
+
 	#footer {
+		
 		.copyright {
 			font-size: 0.8em;
 			list-style: none;
@@ -26,6 +28,7 @@
 					padding-left: 0;
 				}
 			}
+
 		}
 
 		@include breakpoint(xsmall) {
